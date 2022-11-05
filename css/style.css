@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+}
+
+@media screen and (max-width: 768px) {
+    img.ieee {
+      width: 100px;
+      height: 49px;
+      /* padding: 70px 0 0; */
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    section.title {
+        background-color: #ff4c68;
+        color: white;
+        padding: 3% 7% 3% 7%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    section.title {
+        background-color: #ff4c68;
+    display: block;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+    color: white;
+    padding: 1% 10% 3% 10%;
+    }
+  }
+/* #title{
+    background-color: #ff4c68;
+    display: block;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+    color: white;
+    padding: 3% 10% 3% 10%;
+} */
+
+
+
+@media screen and (min-width: 601px) {
+    h1.main {
+      font-size: 120px;
+      padding: 70px 0 0;
+    }
+  }
+@media screen and (min-width: 601px) {
+    h1.sub-main {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    h1.main {
+      font-size: 80px;
+      /* padding: 70px 0 0; */
+    }
+  }
+  @media screen and (max-width: 768px) {
+    h1.sub-main {
+      font-size: 20px;
+    }
+  }
+
+#main{
+    text-align: end;
+    /* font-size: 9vw; */
+    margin-bottom: 0;
+}
+
+#sub-main{
+    text-align: end;
+    /* font-size: 2vw; */
+    margin-top: 0;
+}
+#demo{
+    margin-bottom: 0%;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 5vh;
+    color:white
+}
+#about{
+    /* background-color: #EED180; */
+    /* color: white; */
+    font-size: x-large;
+
+    text-align: center;
+    padding: 3% 10% 30% 10%;
+}
+
+#activities{
+    /* display: block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; */
+    background-color: #ef8172;
+    /* color: white; */
+    padding: 3% 10% 3% 10%;
+    text-align: center;
+}
+h5{
+    padding: 0 15% 0 15%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+
+#contact{
+    
+}
+#footerr{
+    text-align: center;
+    padding: 3% 0 1% 0;
+}
+
+#footer{
+    
+    text-align: center;
+}
+
+.buffer{
+    text-align: end;
+    padding-top: 20%;
+}
