@@ -30,7 +30,7 @@ html, body {
     /* height:100%; */
     width:100%;
     color: white;
-    padding: 1% 10% 10% 10%;
+    padding: 1% 10% 3% 10%;
     }
   }
 /* #title{
@@ -108,10 +108,12 @@ html, body {
 p{
   font-family: 'Montserrat', sans-serif;
 }
+
+.card{
+  height: 45rem;
+}
 #activities{
     /* display: block;
-    height: 100%;
-    width: 100%;
     box-sizing: border-box; */
     background-color: #ef8172;
     
