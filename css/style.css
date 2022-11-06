@@ -3,6 +3,7 @@ html, body {
     height:100%;
     width:100%;
     padding:0;
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -29,7 +30,7 @@ html, body {
     height:100%;
     width:100%;
     color: white;
-    padding: 1% 10% 3% 10%;
+    padding: 1% 10% 10% 10%;
     }
   }
 /* #title{
@@ -85,21 +86,35 @@ html, body {
     font-size: 5vh;
     color:white
 }
+
+#partnership{
+  /* background-color: #EED180; */
+  /* color: white; */
+  font-size: x-large;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 3% 10% 3% 10%;
+}
+
 #about{
     /* background-color: #EED180; */
     /* color: white; */
     font-size: x-large;
-
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 3% 10% 30% 10%;
 }
 
+p{
+  font-family: 'Montserrat', sans-serif;
+}
 #activities{
     /* display: block;
     height: 100%;
     width: 100%;
     box-sizing: border-box; */
     background-color: #ef8172;
+    
     /* color: white; */
     padding: 3% 10% 3% 10%;
     text-align: center;
@@ -124,12 +139,15 @@ img {
     
 }
 #footerr{
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 3% 0 1% 0;
 }
 
 #footer{
-    
+    background-color: black;
+    color: white;
     text-align: center;
 }
 
