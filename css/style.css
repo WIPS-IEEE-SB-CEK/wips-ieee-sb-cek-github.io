@@ -110,7 +110,9 @@ p{
 }
 
 .card{
-  height: 100%;
+  height: 50rem;
+  background-color: #ff4c68;
+  color: white;
 }
 #activities{
     /* display: block;
