@@ -28,7 +28,7 @@ html, body {
     display: block;
     box-sizing: border-box;
     /* height:100%; */
-    width:100%;
+    /* width:100%; */
     color: white;
     padding: 1% 10% 3% 10%;
     }
@@ -110,7 +110,7 @@ p{
 }
 
 .card{
-  height: 45rem;
+  height: 100%;
 }
 #activities{
     /* display: block;
