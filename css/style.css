@@ -111,13 +111,13 @@ p{
 
 .card{
   height: 50rem;
-  background-color: #ff4c68;
+  background-color: #c04131;/*ef8172*/
   color: white;
 }
 #activities{
     /* display: block;
     box-sizing: border-box; */
-    background-color: #ef8172;
+    background-color: #ff4c68; /*ff4c68*/
     
     /* color: white; */
     padding: 3% 10% 3% 10%;
