@@ -130,6 +130,48 @@ html, body {
     
 }
 
+.section-title{
+  text-align: center;
+  color: black;
+  padding: 3%;
+}
+.legacy-title{
+  padding: 3% 0 2% 0;
+}
+.legacy-info{
+  padding: 2%;
+  text-align: justify;
+  border: 2px solid #ff4c68;
+  border-radius: 1rem;
+  /* background-color: black; */
+  color: #000;
+
+}
+
+.testimonials{
+  border: 2px solid #ff4c68;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  /* background-color: #331832; */
+}
+.testimonial-detail{
+  padding: 2% 2% 0 2%;
+}
+.testimonial-author{
+  text-align: end;
+  padding: 0 2% 0 2%;
+}
+
+#legacy{
+  padding: 3%;
+  color: #ff4c68;
+
+}
+
+#testimonial-section{
+  padding: 3%;
+}
+
 
 p{
   font-family: 'Montserrat', sans-serif;
