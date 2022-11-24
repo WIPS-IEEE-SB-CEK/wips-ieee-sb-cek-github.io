@@ -1,214 +1,218 @@
-html, body {
-    margin: 0;
-    height:100%;
-    width:100%;
-    padding:0;
-    
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
 }
 
-  /* @media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     section.title {
         background-color: #ff4c68;
     display: block;
     box-sizing: border-box;
     /* height:100%; */
-    /* width:100%; /
+/* width:100%; /
     color: white;
     padding: 1% 10% 3% 10%;
     }
   } */
-#title{
-    background-color: #ff4c68;
-    display: block;
-    box-sizing: border-box;
-    /* height:100%; */
-    /* width:100%; */
-    color: white;
-    padding: 3% 10% 3% 10%;
+#title {
+  background-color: #ff4c68;
+  display: block;
+  box-sizing: border-box;
+  /* height:100%; */
+  /* width:100%; */
+  color: white;
+  padding: 3% 10% 3% 10%;
 }
-
 
 /* big screen */
-@media screen and (min-width: 601px) { 
-    h1.main {
-      font-size: 120px;
-      padding: 70px 0 0;
-    }
-    h1.sub-main {
-      font-size: 20px;
-    }
-    .small {
-      height: 45rem;
-      background-color: #f77487;/*ef8172 331832*/
-      color: white;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      transition: 0.3s;
-      border-radius: 5px; /* 5px rounded corners */
-      font-size: 1rem;
-    }
-    .large {
-      height: 55rem;
-      background-color: #f77487;/*ef8172 331832*/
-      color: white;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      transition: 0.3s;
-      border-radius: 5px; /* 5px rounded corners */
-      font-size: 1rem;
-    }
-    #wipslogo{
-      height: 200px;
-    }
+@media screen and (min-width: 601px) {
+  h1.main {
+    font-size: 120px;
+    padding: 70px 0 0;
   }
-
-  /* small screen  */
-  @media screen and (max-width: 768px) {
-    img.ieee {
-      width: 100px;
-      height: 49px;
-      /* padding: 70px 0 0; */
-    }
-    section.title {
-      background-color: #ff4c68;
-      color: white;
-      padding: 3% 7% 3% 7%;
+  h1.sub-main {
+    font-size: 20px;
   }
-    h1.main {
-      font-size: 80px;
-      /* padding: 70px 0 0; */
-    }
-    h1.sub-main {
-      font-size: 20px;
-    }
-    .card {
-      background-color: #f77487;/*ef8172 c04131*/
-      color: white;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      transition: 0.3s;
-      border-radius: 5px; /* 5px rounded corners */
-    }
-    #wipslogo{
-      height: 150px;
-      padding: 3% 3%;
-    }
+  .small {
+    height: 45rem;
+    /* background-color: #f77487; */
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    font-size: 1rem;
+    border: 5px solid #ff4c68;
+    border-radius: 1rem;
   }
-
-#main{
-    text-align: end;
-    /* font-size: 9vw; */
-    margin-bottom: 0;
+  .large {
+    height: 55rem;
+    /* background-color: #f77487; */
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    font-size: 1rem;
+    border: 5px solid #ff4c68;
+    border-radius: 1rem;
+  }
+  #wipslogo {
+    height: 200px;
+  }
 }
 
-#sub-main{
-    text-align: end;
-    /* font-size: 2vw; */
-    margin-top: 0;
+/* small screen  */
+@media screen and (max-width: 768px) {
+  img.ieee {
+    width: 100px;
+    height: 49px;
+    /* padding: 70px 0 0; */
+  }
+  section.title {
+    background-color: #ff4c68;
+    color: white;
+    padding: 3% 7% 3% 7%;
+  }
+  h1.main {
+    font-size: 80px;
+    /* padding: 70px 0 0; */
+  }
+  h1.sub-main {
+    font-size: 20px;
+  }
+  .card {
+    background-color: #f77487; /*ef8172 c04131*/
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    border: 5px solid #ff4c68;
+    border-radius: 1rem;
+  }
+  #wipslogo {
+    height: 150px;
+    padding: 3% 3%;
+  }
 }
-#demo{
-    margin-bottom: 0%;
-    padding-bottom: 0;
-    text-align: center;
-    font-size: 5vh;
-    color:white
+
+#main {
+  text-align: end;
+  /* font-size: 9vw; */
+  margin-bottom: 0;
+}
+
+#sub-main {
+  text-align: end;
+  /* font-size: 2vw; */
+  margin-top: 0;
+}
+#demo {
+  margin-bottom: 0%;
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 5vh;
+  color: white;
 }
 
 /* #partnership{
   /* background-color: #EED180; */
-  /* color: white; /
+/* color: white; /
   font-size: x-large;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding: 3% 10% 3% 10%;
 } */
 
-#about{
-  background: linear-gradient(90deg, #f77487 10%, #ff4c68 90%);
-    color: white;
-    font-size: x-large;
-    font-family: 'Montserrat', sans-serif;
-    /* text-align: center; */
-    padding: 3% 10% 3% 10%;
-    
+#about {
+  /* background: linear-gradient(90deg, #f77487 10%, #ff4c68 90%); */
+  color: black;
+  font-size: x-large;
+  font-family: "Montserrat", sans-serif;
+  /* text-align: center; */
+  padding: 3% 10% 3% 10%;
+}
+.about-info {
+  border: 5px solid #ff4c68;
+  border-radius: 1rem;
+  padding: 4%;
 }
 
-.section-title{
+.section-title {
   text-align: center;
   color: black;
-  padding: 3%;
+  font-family: "Montserrat", sans-serif;
+  /* padding: 3%; */
 }
-.legacy-title{
+.legacy-title {
   padding: 3% 0 2% 0;
 }
-.legacy-info{
+.legacy-info {
   padding: 2%;
   text-align: justify;
   border: 2px solid #ff4c68;
   border-radius: 1rem;
   /* background-color: black; */
   color: #000;
-
 }
 
-.testimonials{
+.testimonials {
   border: 2px solid #ff4c68;
   border-radius: 1rem;
   backdrop-filter: blur(10px);
   /* background-color: #331832; */
 }
-.testimonial-detail{
+.testimonial-detail {
   padding: 2% 2% 0 2%;
 }
-.testimonial-author{
+.testimonial-author {
   text-align: end;
   padding: 0 2% 0 2%;
 }
 
-#legacy{
-  padding: 3%;
+#legacy {
+  padding: 3% 6% 3% 6%;
   color: #ff4c68;
-
 }
 
-#testimonial-section{
+#testimonial-section {
   padding: 3%;
 }
 
-
-p{
-  font-family: 'Montserrat', sans-serif;
+p {
+  font-family: "Montserrat", sans-serif;
 }
 
-#activities{
-    /* display: block;
+#activities {
+  /* display: block;
     box-sizing: border-box; */
-    background-color: #FDF0D5; /*ff4c68*/
-    
-    /* color: white; */
-    padding: 3% 10% 3% 10%;
-    text-align: justify;
-}
-h5{
-    padding: 0 15% 0 15%;
-}
+  /* background-color: #FDF0D5; */
 
-
+  /* color: white; */
+  padding: 3% 10% 3% 10%;
+  text-align: justify;
+}
+.activities-img {
+  border-radius: 0.5rem;
+}
+h5 {
+  padding: 0 15% 0 15%;
+}
 
 /* Add rounded corners to the top left and the top right corner of the image */
 img {
   border-radius: 5px 5px 0 0;
 }
 
-
-#contact{
-    
-}
-#footerr{
-    background-color: #331832;
-    color: white;
-    text-align: center;
-    padding: 3% 0 1% 0;
+#footerr {
+  background-color: black; /*331832*/
+  color: white;
+  text-align: center;
+  padding: 3% 0 1% 0;
 }
 
-.buffer{
-    text-align: end;
-    padding-top: 20%;
+.buffer {
+  text-align: end;
+  padding-top: 20%;
 }
