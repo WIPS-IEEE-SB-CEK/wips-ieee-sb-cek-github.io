@@ -55,6 +55,9 @@ html, body {
       border-radius: 5px; /* 5px rounded corners */
       font-size: 1rem;
     }
+    #wipslogo{
+      height: 200px;
+    }
   }
 
   /* small screen  */
@@ -82,6 +85,10 @@ html, body {
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       transition: 0.3s;
       border-radius: 5px; /* 5px rounded corners */
+    }
+    #wipslogo{
+      height: 150px;
+      padding: 3% 3%;
     }
   }
 
@@ -122,9 +129,7 @@ html, body {
     padding: 3% 10% 3% 10%;
     
 }
-#wipslogo{
-  height: 200px;
-}
+
 
 p{
   font-family: 'Montserrat', sans-serif;
