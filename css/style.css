@@ -38,7 +38,7 @@ html, body {
       font-size: 20px;
     }
     .small {
-      height: 40rem;
+      height: 45rem;
       background-color: #f77487;/*ef8172 331832*/
       color: white;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -47,7 +47,7 @@ html, body {
       font-size: 1rem;
     }
     .large {
-      height: 50rem;
+      height: 55rem;
       background-color: #f77487;/*ef8172 331832*/
       color: white;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
