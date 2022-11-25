@@ -117,13 +117,9 @@ body {
 }
 
 .register-now{
-  width: 5000px;
-  height: 500px;
-  background-image: url("./images/register-now");
+  height: 20rem;
+  padding-top: 5%;
   /* display: inline-block; */
-}
-.register-now:hover{
-  background-image: url("./images/register-now-2.svg");
 }
 /* #partnership{
   /* background-color: #EED180; */
