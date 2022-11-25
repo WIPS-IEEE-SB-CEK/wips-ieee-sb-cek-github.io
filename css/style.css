@@ -155,14 +155,14 @@ body {
 .legacy-info {
   padding: 2%;
   text-align: justify;
-  border: 2px solid #ff4c68;
+  border: 5px solid #ff4c68;
   border-radius: 1rem;
   /* background-color: black; */
   color: #000;
 }
 
 .testimonials {
-  border: 2px solid #ff4c68;
+  border: 5px solid #ff4c68;
   border-radius: 1rem;
   backdrop-filter: blur(10px);
   /* background-color: #331832; */
