@@ -92,8 +92,8 @@ body {
     border-radius: 1rem;
   }
   #wipslogo {
-    height: 150px;
-    padding: 3% 3%;
+    height: 130px;
+    padding: 3% 4% 7% 4%;
   }
 }
 
@@ -138,12 +138,16 @@ body {
   border-radius: 1rem;
   padding: 4%;
 }
+.about-info:hover{
+  background-color: #ff4c68;
+  color: white;
+  transition-duration: 1s;
+}
 
 .section-title {
   text-align: center;
   color: black;
   font-family: "Montserrat", sans-serif;
-  /* padding: 3%; */
 }
 .legacy-title {
   padding: 3% 0 2% 0;
