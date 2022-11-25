@@ -114,14 +114,6 @@ body {
   padding-top: 5%;
   /* display: inline-block; */
 }
-/* #partnership{
-  /* background-color: #EED180; */
-/* color: white; /
-  font-size: x-large;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  padding: 3% 10% 3% 10%;
-} */
 
 #about {
   /* background: linear-gradient(90deg, #f77487 10%, #ff4c68 90%); */
@@ -187,11 +179,7 @@ p {
 }
 
 #activities {
-  /* display: block;
-    box-sizing: border-box; */
   /* background-color: #FDF0D5; */
-
-  /* color: white; */
   padding: 3% 10% 3% 10%;
   text-align: justify;
 }
