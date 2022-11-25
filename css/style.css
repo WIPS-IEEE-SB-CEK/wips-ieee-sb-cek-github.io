@@ -30,13 +30,13 @@ body {
 /* big screen */
 @media screen and (min-width: 601px) {
   h1.main {
-    font-size: 120px;
+    font-size: 100px;
     padding: 70px 0 0;
     color: #ff4c68;
   }
   h1.sub-main {
     font-size: 20px;
-    color: #ff4c68;
+    color: black;
   }
   .small {
     height: 45rem;
@@ -78,13 +78,13 @@ body {
     padding: 3% 7% 3% 7%;
   }
   h1.main {
-    font-size: 80px;
+    font-size: 60px;
     /* padding: 70px 0 0; */
     color: #ff4c68;
   }
   h1.sub-main {
     font-size: 20px;
-    color: #ff4c68;
+    color: black;
   }
   .card {
     /* background-color: #f77487; */
