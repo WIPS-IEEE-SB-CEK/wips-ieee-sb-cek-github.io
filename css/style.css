@@ -18,23 +18,25 @@ body {
     }
   } */
 #title {
-  background-color: #ff4c68;
+  background-color: white;
   display: block;
   box-sizing: border-box;
   /* height:100%; */
   /* width:100%; */
-  color: white;
+  color: #ff4c68;
   padding: 3% 10% 3% 10%;
 }
 
 /* big screen */
 @media screen and (min-width: 601px) {
   h1.main {
-    font-size: 120px;
+    font-size: 100px;
     padding: 70px 0 0;
+    color: #ff4c68;
   }
   h1.sub-main {
     font-size: 20px;
+    color: black;
   }
   .small {
     height: 45rem;
@@ -71,16 +73,18 @@ body {
     /* padding: 70px 0 0; */
   }
   section.title {
-    background-color: #ff4c68;
-    color: white;
+    /* background-color: #ff4c68; */
+    color: #ff4c68;
     padding: 3% 7% 3% 7%;
   }
   h1.main {
-    font-size: 80px;
+    font-size: 60px;
     /* padding: 70px 0 0; */
+    color: #ff4c68;
   }
   h1.sub-main {
     font-size: 20px;
+    color: black;
   }
   .card {
     /* background-color: #f77487; */
@@ -113,7 +117,7 @@ body {
   padding-bottom: 0;
   text-align: center;
   font-size: 5vh;
-  color: white;
+  color: #ff4c68;
 }
 
 /* #partnership{
