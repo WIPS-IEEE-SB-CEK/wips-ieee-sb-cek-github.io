@@ -31,11 +31,11 @@ body {
 @media screen and (min-width: 601px) {
   h1.main {
     font-size: 100px;
-    padding: 70px 0 0;
+    padding: 70px 0 3% 0;
     color: #ff4c68;
   }
   h1.sub-main {
-    font-size: 20px;
+    font-size: 30px;
     color: black;
   }
   .small {
@@ -115,11 +115,16 @@ body {
 #demo {
   margin-bottom: 0%;
   padding-bottom: 0;
-  text-align: center;
+  text-align: end;
   font-size: 5vh;
   color: #ff4c68;
 }
 
+.register-now{
+  height: 20rem;
+  padding-top: 5%;
+  /* display: inline-block; */
+}
 /* #partnership{
   /* background-color: #EED180; */
 /* color: white; /
