@@ -57,6 +57,10 @@ body {
     padding-top: 5%;
     /* display: inline-block; */
   }
+
+  #speaker{
+    padding: 15%;
+  }
   
 }
 
@@ -99,7 +103,11 @@ body {
     width: 100%;
     padding-top: 5%;
     /* display: inline-block; */
-  }  
+  } 
+  
+  #speaker{
+    padding: 5%;
+  }
 }
 
 #main {
@@ -120,7 +128,6 @@ body {
   font-size: 5vh;
   color: #ff4c68;
 }
-
 
 #about {
   /* background: linear-gradient(90deg, #f77487 10%, #ff4c68 90%); */
